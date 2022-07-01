@@ -38,7 +38,7 @@ for s in sorted(set(search)):
     print(f'Поисковых запросов, из {s} слов(а){search.count(s)/len(queries):.2%}')
 
 #Task4
-stats = {'facebook': 55, 'yandex': 120, 'vk': 115, 'google': 99, 'email': 42, 'ok': 98}
+stats = {'facebook': 190, 'yandex': 120, 'vk': 115, 'google': 99, 'email': 42, 'ok': 98}
 stats_max = max(stats.items(), key = lambda x: x[1])
 
 print(stats_max[0])
